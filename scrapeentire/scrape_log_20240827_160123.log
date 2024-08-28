@@ -1,0 +1,490 @@
+Content for http://topnotchroofing.com.au:
+Error (if any): HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc570e77df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.cryoprep.com/:
+Error (if any): HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc570e77d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.vitachiropractic.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://will-build-builder-carpenter.business.site/:
+Error (if any): 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://e1poolcertifier.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://charmaineiversen.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://superiorfencing.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://wordofmouthglobal.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.industrialsteel.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://celebrantmissionbeach.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true:
+Error (if any): 404 Client Error: Not Found for url: https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.kibbeycooper.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: https://www.kibbeycooper.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://artandyou.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.ghcbuilding.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://sced.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://thesoulalchemist.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.wisehealth.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.lanneconveyancing.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.awesomepawsome.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://quickfreeze.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://samanthamellingmassagetherapies.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.icepower.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://perthcremationswa.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://soundequipmentmelbourne.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.lasvisionplus.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.kanvaskraft.com.au:
+Error (if any): 403 Client Error: Forbidden for url: http://www.kanvaskraft.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.grothconstruct.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://aussiediscreetstore.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.centralcoastshuttersblindsandawnings.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.autoelectrician2u.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://kerwinhomes.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.garmischfabrications.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.beachstherapy.com.au:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://maitriclinic.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://yourceremony.net.au:
+Error (if any): HTTPSConnectionPool(host='yourceremony.net.au', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError("hostname 'yourceremony.net.au' doesn't match either of 'accesscomms.au', 'adjusterusa.com', 'aedcourse.com', 'agworkforce.au', 'akinnovations.au', 'akwineclub.com', 'albury.florist', 'amelia-marie.com', 'americansta.org', 'anissafox.com', 'aplusexhaust.com', 'arcmigration.com', 'ausphysios.com', 'aztecblades.com', 'bellesoap.com', 'benchtops.biz', 'benchtops.net', 'billiardscam.com', 'blackoxide.au', 'bodypractic.com', 'boldtcrc.com', 'bongsnpipes.com', 'buddeegear.au', 'c21china.com', 'c21invest.com', 'cairnscctv.au', 'camplanters.com', 'cctvrentals.au', 'ckmorgan.info', 'controlfreq.au', 'cooldynamics.au', 'cosectax.com', 'crunchright.com', 'crunchright.nz', 'culturecode.au', 'danraegroup.com', 'dawnmpugh.com', 'doctorpool.au', 'doncaster.church', 'doncasterpc.au', 'envirostyle.au', 'fayknight.com', 'gecko-gear.com', 'geckogear.au', 'geckogear.com', 'geekmobile.au', 'godtoday.world', 'goldieandace.nz', 'goodinvesting.nz', 'hakubaresort.com', 'healthiergo.au', 'hotellindrum.com', 'ictaustralia.com', 'invest4good.co', 'invest4good.nz', 'investgood.co', 'janeewins.com', 'jenandphils.au', 'jenphils.au', 'jmcphail.com', 'joesfoodco.com', 'johncurtin.org', 'kasabias.com', 'kilcoygolf.com', 'lifesgoodin.au', 'lordtim.info', 'lsclighting.nz', 'mrbenchtops.au', 'murabito.au', 'mycleanpos.com', 'newpathit.au', 'newpathweb.au', 'ournotes.net', 'paylesscctv.au', 'pollaers.com', 'powermove.au', 'psapparel.au', 'psychmednsw.au', 'psychmedqld.au', 'psychmedvic.au', 'psychmedwa.au', 'qvmtrader.com', 'reefcharter.au', 'roodenburg.au', 'sasswomen.com', 'seashepherd.nz', 'seekakadu.com', 'seeuluru.com', 'segueart.com', 'smartgivers.nz', 'soulvable.net', 'springshop.au', 'sunburycabs.au', 'th7bodylabs.au', 'th7labs.com', 'tonyrudd.com', 'tractor4u.com', 'wagga.florist', 'xermanager.au', 'xrayinstall.com'")))
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://munnoparaconcrete.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.julieritch.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.celebranttasmania.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://janela35.wixsite.com/lisaweddingservices:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://paradisemarriages.com:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://creativeblockspsychology.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://creativeblockspsychology.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/:
+Error (if any): 404 Client Error: Not Found for url: https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.metunghotsprings.com/metung-country-club:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.queenscliffgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.facebook.com/www.golfclubtumba.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.beaconhillsgolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.cottesloegc.com/welcome/index.mhtml:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.neangarparkgc.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://asquithgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.highercombegolf.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://www.highercombegolf.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.bayviewgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://inverleighgolfclub.asn.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://inverleighgolfclub.asn.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.barnwellparkgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.nswgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.rowesbaygolfclub.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gmb:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://eastwoodgolf.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: https://eastwoodgolf.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.cooberpedygolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.sheppartongolf.net.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.moegolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.golf.org.au/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.humptydoogolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.terreyhillsgolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.armidalegolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.devilbendgolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://portmacquariegolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.leuragolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://jamberoogolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.richriver.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.facebook.com/moranbahgolfclub:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.royalfremantlegc.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.cheltenhamgolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB:
+Error (if any): 403 Client Error: Forbidden for url: https://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://forstertuncurrygolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.sandygallop.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://penfieldgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.howlonggolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.windaroolakes.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.nudgeegolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://redcliffegolf.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.camdengolfclub.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://www.camdengolfclub.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.hamiltonisland.com.au/bars-and-clubs/clubhouse-restaurant:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://theridgegolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://meadowpark.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: https://meadowpark.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.port.golf/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.ouyengolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://www.wgc.net.au/cms/:
+Error (if any): 404 Client Error: Not Found for url: https://www.wgc.net.au/cms/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.murwillumbahgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://aehgroup.com.au/shop:
+Error (if any): HTTPSConnectionPool(host='aehgroup.com.au', port=443): Max retries exceeded with url: /shop (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1123)')))
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.cranbournegolf.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.portkemblagolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.lonsdalelinks.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.inverlochpar3.com.au/:
+Error (if any): 406 Client Error: Not Acceptable for url: http://www.inverlochpar3.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://swanreachgolfclub.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://hamiltongolfclub.com.au/:
+Error (if any): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.camdenlakeside.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://www.camdenlakeside.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.brightonlakesrgc.com.au/:
+Error (if any): 403 Client Error: Forbidden for url: http://www.brightonlakesrgc.com.au/
+--------------------------------------------------------------- 
+ 
+ 
+Content for http://www.sandhurst.com/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
+Content for https://mtderrimut.com.au/:
+Error (if any): None
+--------------------------------------------------------------- 
+ 
+ 
