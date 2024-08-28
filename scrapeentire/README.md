@@ -15,6 +15,9 @@ Installation
 You can install the required Python packages using pip: 
     
     pip install pandas requests beautifulsoup4
+or
+
+	conda install pandas requests beautifulsoup4
 
 Script Overview
 
