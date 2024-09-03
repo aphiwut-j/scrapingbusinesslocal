@@ -1,0 +1,686 @@
+Content for http://topnotchroofing.com.au:
+Main Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x156b17f50>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+About Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: /about (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x156b22250>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+Contact Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: /contact (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x156b34790>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+---------------------------------------------------------------
+
+
+Content for https://www.cryoprep.com/:
+Main Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x156b23950>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+About Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: /about (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x156b21e10>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+Contact Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: /contact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x156b17f90>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+---------------------------------------------------------------
+
+
+Content for https://www.vitachiropractic.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.vitachiropractic.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://will-build-builder-carpenter.business.site/:
+Main Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/
+About Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/about
+Contact Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/contact
+---------------------------------------------------------------
+
+
+Content for https://e1poolcertifier.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://e1poolcertifier.com/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://charmaineiversen.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://charmaineiversen.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://charmaineiversen.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://superiorfencing.com.au:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://wordofmouthglobal.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://wordofmouthglobal.com/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.industrialsteel.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: https://www.industrialsteel.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://celebrantmissionbeach.com.au:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.celebrantmissionbeach.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true:
+Main Page Error: 404 Client Error: Not Found for url: https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true
+About Page Error: 404 Client Error: Not Found for url: https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true/about
+Contact Page Error: 404 Client Error: Not Found for url: https://figjam-painting-residential-commercial-painter-coffs.business.site/?m=true/contact
+---------------------------------------------------------------
+
+
+Content for https://www.kibbeycooper.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: https://www.kibbeycooper.com.au/
+About Page Error: 403 Client Error: Forbidden for url: https://www.kibbeycooper.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: https://www.kibbeycooper.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://artandyou.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.ghcbuilding.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.ghcbuilding.com/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.ghcbuilding.com/contact
+---------------------------------------------------------------
+
+
+Content for http://sced.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: http://sced.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://thesoulalchemist.com.au/:
+Main Page Error: N/A
+About Page Error: 403 Client Error: Forbidden for url: https://thesoulalchemist.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: https://thesoulalchemist.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.wisehealth.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://www.wisehealth.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: http://www.wisehealth.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.lanneconveyancing.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.lanneconveyancing.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.lanneconveyancing.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.awesomepawsome.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.awesomepawsome.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.awesomepawsome.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://quickfreeze.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://quickfreeze.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://quickfreeze.au/contact
+---------------------------------------------------------------
+
+
+Content for http://samanthamellingmassagetherapies.com.au:
+Main Page Error: N/A
+About Page Error: 403 Client Error: Forbidden for url: http://samanthamellingmassagetherapies.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://samanthamellingmassagetherapies.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.icepower.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://perthcremationswa.com.au:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://soundequipmentmelbourne.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://soundequipmentmelbourne.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://soundequipmentmelbourne.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.lasvisionplus.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.lasvisionplus.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.kanvaskraft.com.au:
+Main Page Error: 403 Client Error: Forbidden for url: http://www.kanvaskraft.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://www.kanvaskraft.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://www.kanvaskraft.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.grothconstruct.com/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://aussiediscreetstore.com/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.centralcoastshuttersblindsandawnings.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://centralcoastshuttersblindsandawnings.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.autoelectrician2u.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://www.autoelectrician2u.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: http://www.autoelectrician2u.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://kerwinhomes.com.au:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://kerwinhomes.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: http://kerwinhomes.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.garmischfabrications.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.garmischfabrications.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.beachstherapy.com.au:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://maitriclinic.com/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://yourceremony.net.au:
+Main Page Error: HTTPSConnectionPool(host='yourceremony.net.au', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yourceremony.net.au'. (_ssl.c:1006)")))
+About Page Error: HTTPSConnectionPool(host='yourceremony.net.au', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yourceremony.net.au'. (_ssl.c:1006)")))
+Contact Page Error: HTTPSConnectionPool(host='yourceremony.net.au', port=443): Max retries exceeded with url: /contact (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yourceremony.net.au'. (_ssl.c:1006)")))
+---------------------------------------------------------------
+
+
+Content for https://munnoparaconcrete.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.julieritch.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.julieritch.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.celebranttasmania.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.celebranttasmania.com/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://janela35.wixsite.com/lisaweddingservices:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://janela35.wixsite.com/lisaweddingservices/about
+Contact Page Error: 404 Client Error: Not Found for url: https://janela35.wixsite.com/lisaweddingservices/contact
+---------------------------------------------------------------
+
+
+Content for http://paradisemarriages.com:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://creativeblockspsychology.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://creativeblockspsychology.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://creativeblockspsychology.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://creativeblockspsychology.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/:
+Main Page Error: 404 Client Error: Not Found for url: https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/
+About Page Error: 404 Client Error: Not Found for url: https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/about
+Contact Page Error: 404 Client Error: Not Found for url: https://mary-ann-holt-celebrant-wedding-ceremonies.business.site/contact
+---------------------------------------------------------------
+
+
+Content for http://www.metunghotsprings.com/metung-country-club:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.metunghotsprings.com/metung-country-club/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.metunghotsprings.com/metung-country-club/contact
+---------------------------------------------------------------
+
+
+Content for http://www.queenscliffgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.queenscliffgolfclub.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.queenscliffgolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://www.facebook.com/www.golfclubtumba.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: https://www.facebook.com/www.golfclubtumba.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.beaconhillsgolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.beaconhillsgolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.beaconhillsgolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.cottesloegc.com/welcome/index.mhtml:
+Main Page Error: N/A
+About Page Error: 404 Client Error: 404 for url: https://www.cottesloegc.com/welcome/index.mhtml/about
+Contact Page Error: 404 Client Error: 404 for url: https://www.cottesloegc.com/welcome/index.mhtml/contact
+---------------------------------------------------------------
+
+
+Content for http://www.neangarparkgc.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.neangarparkgc.com/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.neangarparkgc.com/contact
+---------------------------------------------------------------
+
+
+Content for http://asquithgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.asquithgolfclub.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.asquithgolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.highercombegolf.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://www.highercombegolf.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://www.highercombegolf.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://www.highercombegolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.bayviewgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.bayviewgolfclub.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://inverleighgolfclub.asn.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://inverleighgolfclub.asn.au/
+About Page Error: 403 Client Error: Forbidden for url: http://inverleighgolfclub.asn.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://inverleighgolfclub.asn.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.barnwellparkgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.barnwellparkgolfclub.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.barnwellparkgolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.nswgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.nswgolfclub.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.nswgolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.rowesbaygolfclub.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gmb:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://eastwoodgolf.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: https://eastwoodgolf.com.au/
+About Page Error: 403 Client Error: Forbidden for url: https://eastwoodgolf.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: https://eastwoodgolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.cooberpedygolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://www.cooberpedygolfclub.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: http://www.cooberpedygolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.sheppartongolf.net.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.sheppartongolf.net.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.sheppartongolf.net.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.moegolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.golf.org.au/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.humptydoogolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: https://www.humptydoogolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.terreyhillsgolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.terreyhillsgolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.terreyhillsgolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.armidalegolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.armidalegolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.armidalegolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.devilbendgolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.devilbendgolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.devilbendgolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://portmacquariegolf.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.leuragolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: http://www.leuragolfclub.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://jamberoogolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://jamberoogolf.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.richriver.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.facebook.com/moranbahgolfclub:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: https://www.facebook.com/moranbahgolfclub/contact
+---------------------------------------------------------------
+
+
+Content for http://www.royalfremantlegc.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.royalfremantlegc.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.royalfremantlegc.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.cheltenhamgolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://cheltenhamgolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://cheltenhamgolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB:
+Main Page Error: 403 Client Error: Forbidden for url: https://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB
+About Page Error: 403 Client Error: Forbidden for url: https://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB/about
+Contact Page Error: 403 Client Error: Forbidden for url: https://www.boxhillgolfclub.com.au/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB/contact
+---------------------------------------------------------------
+
+
+Content for https://forstertuncurrygolf.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.sandygallop.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.sandygallop.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.sandygallop.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://penfieldgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://penfieldgolfclub.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.howlonggolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.howlonggolf.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.windaroolakes.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: 404 Client Error: Not Found for url: https://www.windaroolakes.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.nudgeegolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.nudgeegolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.nudgeegolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://redcliffegolf.com/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.redcliffegolf.com/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.redcliffegolf.com/contact
+---------------------------------------------------------------
+
+
+Content for http://www.camdengolfclub.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://www.camdengolfclub.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://www.camdengolfclub.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://www.camdengolfclub.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.hamiltonisland.com.au/bars-and-clubs/clubhouse-restaurant:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.hamiltonisland.com.au/bars-and-clubs/clubhouse-restaurant/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.hamiltonisland.com.au/bars-and-clubs/clubhouse-restaurant/contact
+---------------------------------------------------------------
+
+
+Content for http://theridgegolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://theridgegolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://theridgegolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://meadowpark.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: https://meadowpark.com.au/
+About Page Error: 403 Client Error: Forbidden for url: https://meadowpark.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: https://meadowpark.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.port.golf/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.port.golf/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.port.golf/contact
+---------------------------------------------------------------
+
+
+Content for http://www.ouyengolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.ouyengolfclub.com.au/about
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://www.wgc.net.au/cms/:
+Main Page Error: 404 Client Error: Not Found for url: https://www.wgc.net.au/cms/
+About Page Error: 404 Client Error: Not Found for url: https://www.wgc.net.au/cms/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.wgc.net.au/cms/contact
+---------------------------------------------------------------
+
+
+Content for http://www.murwillumbahgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://aehgroup.com.au/shop:
+Main Page Error: HTTPSConnectionPool(host='aehgroup.com.au', port=443): Max retries exceeded with url: /shop (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+About Page Error: HTTPSConnectionPool(host='aehgroup.com.au', port=443): Max retries exceeded with url: /shop/about (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+Contact Page Error: HTTPSConnectionPool(host='aehgroup.com.au', port=443): Max retries exceeded with url: /shop/contact (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+---------------------------------------------------------------
+
+
+Content for http://www.cranbournegolf.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.cranbournegolf.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.cranbournegolf.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.portkemblagolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://www.lonsdalelinks.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://www.lonsdalelinks.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://www.lonsdalelinks.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.inverlochpar3.com.au/:
+Main Page Error: 406 Client Error: Not Acceptable for url: http://www.inverlochpar3.com.au/
+About Page Error: 406 Client Error: Not Acceptable for url: http://www.inverlochpar3.com.au/about
+Contact Page Error: 406 Client Error: Not Acceptable for url: http://www.inverlochpar3.com.au/contact
+---------------------------------------------------------------
+
+
+Content for https://swanreachgolfclub.com.au/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for http://hamiltongolfclub.com.au/:
+Main Page Error: HTTPConnectionPool(host='hamiltongolfclub.com.au', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x157633810>, 'Connection to hamiltongolfclub.com.au timed out. (connect timeout=120)'))
+About Page Error: HTTPConnectionPool(host='hamiltongolfclub.com.au', port=80): Max retries exceeded with url: /about (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x157b9ab90>, 'Connection to hamiltongolfclub.com.au timed out. (connect timeout=120)'))
+Contact Page Error: HTTPConnectionPool(host='hamiltongolfclub.com.au', port=80): Max retries exceeded with url: /contact (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x157ba1d90>, 'Connection to hamiltongolfclub.com.au timed out. (connect timeout=120)'))
+---------------------------------------------------------------
+
+
+Content for http://www.camdenlakeside.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://www.camdenlakeside.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://www.camdenlakeside.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://www.camdenlakeside.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.brightonlakesrgc.com.au/:
+Main Page Error: 403 Client Error: Forbidden for url: http://www.brightonlakesrgc.com.au/
+About Page Error: 403 Client Error: Forbidden for url: http://www.brightonlakesrgc.com.au/about
+Contact Page Error: 403 Client Error: Forbidden for url: http://www.brightonlakesrgc.com.au/contact
+---------------------------------------------------------------
+
+
+Content for http://www.sandhurst.com/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://mtderrimut.com.au/:
+Main Page Error: N/A
+About Page Error: 404 Client Error: Not Found for url: https://mtderrimut.com.au/about
+Contact Page Error: 404 Client Error: Not Found for url: https://mtderrimut.com.au/contact
+---------------------------------------------------------------
+
+

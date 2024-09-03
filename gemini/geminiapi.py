@@ -1,9 +1,3 @@
-"""
-Install the Google AI Python SDK
-
-$ pip install google-generativeai
-"""
-
 import os
 import google.generativeai as genai
 
@@ -11,31 +5,27 @@ genai.configure(api_key=os.environ["API_KEY"])
 
 # Create the model
 generation_config = {
-  "temperature": 1,
-  "top_p": 0.95,
-  "top_k": 64,
-  "max_output_tokens": 8192,
-  "response_mime_type": "text/plain",
+    "temperature": 0.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "max_output_tokens": 8192,
+    "response_mime_type": "text/plain",
 }
 
 model = genai.GenerativeModel(
-  model_name="gemini-1.5-flash",
-  generation_config=generation_config,
-  # safety_settings = Adjust safety settings
-  # See https://ai.google.dev/gemini-api/docs/safety-settings
+    model_name="gemini-1.5-flash",
+    generation_config=generation_config,
+    # safety_settings = Adjust safety settings
+    # See https://ai.google.dev/gemini-api/docs/safety-settings
 )
 
 chat_session = model.start_chat(
-  history=[
-  ]
+    history=[]
 )
 
-response = chat_session.send_message("""
-
-  Summarize the following content and extract the address, contact number, and name:
-
-                "
-                 Vita Chiropractic - Chiropractor Services Chiro Newstead
+information = """
+Vita Chiropractic - Chiropractor Services Chiro Newstead
+Vita Chiropractic - Chiropractor Services Chiro Newstead
 Home
 Book Online Now
 Services
@@ -179,11 +169,45 @@ Blog
 Gift Cards
 Privacy policy
 Contact 
-                "
+"""
 
-                Please format the response in JSON with keys 'address', 'contact_number', and 'name'.
-                If any information is missing or unclear, leave it as 'n/a'.
+def safe_send_message(query):
+    try:
+        response = chat_session.send_message(query)
+        return response.text
+    except genai.types.generation_types.StopCandidateException as e:
+        print(f"Response stopped due to safety concerns: {e}")
+        return "n/a"
 
-  """)
+response1 = safe_send_message(f"""
+    Summarize the following content and extract the address, contact number, and name:
+    {information}
+    Please respond with only address.
+    If any information is missing or unclear, leave it as 'n/a'.
+""")
 
-print(response.text)
+response2 = safe_send_message(f"""
+    Summarize the following content and extract the contact number:
+    {information}
+    Please respond with only contact number.
+    If any information is missing or unclear, leave it as 'n/a'.
+""")
+
+response3 = safe_send_message(f"""
+    Summarize the following content and extract the name:
+    {information}
+    Please respond with only name.
+    If any information is missing or unclear, leave it as 'n/a'.
+""")
+
+response4 = safe_send_message(f"""
+    Summarize the following content and extract the about:
+    {information}
+    Please respond with only about.
+    If any information is missing or unclear, leave it as 'n/a'.
+""")
+
+print(response1)
+print(response2)
+print(response3)
+print(response4)

@@ -1,0 +1,35 @@
+Content for http://topnotchroofing.com.au:
+Main Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x126773410>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+About Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x15961e3d0>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+Contact Page Error: HTTPConnectionPool(host='topnotchroofing.com.au', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x15962c6d0>: Failed to resolve 'topnotchroofing.com.au' ([Errno 8] nodename nor servname provided, or not known)"))
+---------------------------------------------------------------
+
+
+Content for https://www.cryoprep.com/:
+Main Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x15961f410>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+About Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x15961e510>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+Contact Page Error: HTTPSConnectionPool(host='www.cryoprep.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1596118d0>: Failed to resolve 'www.cryoprep.com' ([Errno 8] nodename nor servname provided, or not known)"))
+---------------------------------------------------------------
+
+
+Content for https://www.vitachiropractic.com.au/:
+Main Page Error: N/A
+About Page Error: No matching page found for 'about'
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
+Content for https://will-build-builder-carpenter.business.site/:
+Main Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/
+About Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/
+Contact Page Error: 404 Client Error: Not Found for url: https://will-build-builder-carpenter.business.site/
+---------------------------------------------------------------
+
+
+Content for https://e1poolcertifier.com/:
+Main Page Error: N/A
+About Page Error: N/A
+Contact Page Error: N/A
+---------------------------------------------------------------
+
+
