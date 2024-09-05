@@ -5,7 +5,7 @@ import csv
 from datetime import datetime
 
 # Load the CSV file into a pandas DataFrame
-path = 'output/cleant dataset/summarized_content_20240904_153512.csv'
+path = '/Users/aphiwutjanphet/Documents/internship/Business Local/github/scrapingbusinesslocal/combined/output/summarized_content_20240905_150921.csv'
 try:
     df = pd.read_csv(path)  # Replace with your actual file path
 except FileNotFoundError as e:
@@ -38,7 +38,8 @@ for index, row in df.iterrows():
     found_data = {
         'number_found': False,
         'address_found': False,
-        'name_found': False
+        'name_found': False,
+        'email_found': False  # New flag for email
     }
     
     for col in content_list:
@@ -60,21 +61,25 @@ for index, row in df.iterrows():
                 name = json_content.get('name', 'N/A')
                 address = json_content.get('address', 'N/A')
                 contact_number = json_content.get('contact_number', 'N/A')
+                email = json_content.get('email', 'N/A')  # Extract email
                 about = json_content.get('about', 'N/A')
                 
                 # Store the extracted information per column in the dictionary
                 extracted_data[f'{col}_Name'] = name
                 extracted_data[f'{col}_Address'] = address
                 extracted_data[f'{col}_Contact_Number'] = contact_number
+                extracted_data[f'{col}_Email'] = email  # Add email extraction
                 extracted_data[f'{col}_About'] = about
 
                 # Update the found data flags
                 if name != 'N/A':
-                    found_data['name_found'] = ''
+                    found_data['name_found'] = True
                 if address != 'N/A':
-                    found_data['address_found'] = ''
+                    found_data['address_found'] = True
                 if contact_number != 'N/A':
-                    found_data['number_found'] = ''
+                    found_data['number_found'] = True
+                if email != 'N/A':  # Set flag if email is found
+                    found_data['email_found'] = True
 
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON for row {index} in column {col}: {e}")

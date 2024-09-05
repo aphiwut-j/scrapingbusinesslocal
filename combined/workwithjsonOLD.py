@@ -5,7 +5,7 @@ import csv
 from datetime import datetime
 
 # Load the CSV file into a pandas DataFrame
-path = 'output/cleant dataset/summarized_content_20240904_153512.csv'
+path = '/Users/aphiwutjanphet/Documents/internship/Business Local/github/scrapingbusinesslocal/combined/output/summarized_content_20240905_155729.csv'
 try:
     df = pd.read_csv(path)  # Replace with your actual file path
 except FileNotFoundError as e:

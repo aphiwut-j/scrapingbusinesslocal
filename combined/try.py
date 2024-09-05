@@ -12,6 +12,7 @@ import google.generativeai as genai
 from google.generativeai.types.generation_types import StopCandidateException
 from google.api_core.exceptions import ResourceExhausted
 import sys
+import re  # Added for email extraction
 
 # Increase the CSV field size limit
 csv.field_size_limit(sys.maxsize)
@@ -60,6 +61,11 @@ class WebScraper:
             print(f"Error fetching links from {url}: {e}")
             return []
 
+    def extract_emails(self, text):
+        email_pattern = r'[a-zA-Z0-9.\-_+%]+@[a-zA-Z0-9.\-_+%]+\.[a-zA-Z]{2,}'
+        emails = re.findall(email_pattern, text)
+        return emails if emails else ['N/A']
+
     def extract_page_content(self, url, page_type=None):
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -68,10 +74,13 @@ class WebScraper:
         try:
             response = self.fetch_with_retry(url, headers=headers)
             if not response:
-                return 'N/A', 'N/A', "Failed to fetch the page", url
-
+                return 'N/A', 'N/A', ['N/A'], "Failed to fetch the page"
+                
             soup = BeautifulSoup(response.content, 'html.parser')
             page_content = soup.get_text(separator='\n', strip=True)
+
+            # Extract emails from the page content
+            emails = self.extract_emails(page_content)
 
             logo_base64 = 'N/A'
             img_tags = soup.find_all('img')
@@ -94,9 +103,9 @@ class WebScraper:
                     except requests.exceptions.RequestException as e:
                         print(f"Error fetching image from {img_url}: {e}")
 
-            return page_content if page_content.strip() else 'N/A', logo_base64, None, url
+            return page_content if page_content.strip() else 'N/A', logo_base64, emails, None
         except requests.exceptions.RequestException as e:
-            return 'N/A', 'N/A', str(e), url
+            return 'N/A', 'N/A', ['N/A'], str(e)
 
     def fetch_with_retry(self, url, headers=None, retries=3):
         for attempt in range(retries):
@@ -114,19 +123,12 @@ class WebScraper:
         with open(self.log_filename, 'w') as logfile:
             for url in urls:
                 if url:
-                    main_content, logo_base64, main_error, main_url = self.extract_page_content(url)
-                    about_url = None
-                    contact_url = None
-                    
-                    links = self.find_links(url)
-                    for link in links:
-                        if 'about' in link.lower():
-                            about_url = link
-                        if 'contact' in link.lower():
-                            contact_url = link
+                    main_content, logo_base64, main_emails, main_error = self.extract_page_content(url)
+                    about_content, _, about_emails, about_error = self.extract_page_content(url + '/about', 'about')
+                    contact_content, _, contact_emails, contact_error = self.extract_page_content(url + '/contact', 'contact')
 
-                    about_content, _, about_error, _ = self.extract_page_content(about_url) if about_url else ('N/A', 'N/A', 'N/A', 'N/A')
-                    contact_content, _, contact_error, _ = self.extract_page_content(contact_url) if contact_url else ('N/A', 'N/A', 'N/A', 'N/A')
+                    # Combine all emails and remove duplicates
+                    all_emails = list(set(main_emails + about_emails + contact_emails))
 
                     log_entry = (
                         f"Content for {url}:\n"
@@ -143,20 +145,14 @@ class WebScraper:
                     self.extracted_data.append({
                         'url': url,
                         'page_content': main_content,
-                        'about_url': about_url,
                         'about_content': about_content,
-                        'contact_url': contact_url,
                         'contact_content': contact_content,
+                        'emails': '; '.join(all_emails),
                         'logo': logo_base64,
                         'error': error_code,
                     })
 
-        # Create DataFrame from extracted data
         extracted_df = pd.DataFrame(self.extracted_data)
-        
-        # Replace empty cells with 'N/A'
-        extracted_df.fillna('N/A', inplace=True)
-        
         extracted_df.to_csv(self.output_filename, index=False, quoting=csv.QUOTE_NONNUMERIC)
 
         print(f"Log file created: {self.log_filename}")
@@ -180,6 +176,7 @@ class ContentSummarizer:
                     page_content = row['page_content']
                     about_content = row['about_content']
                     contact_content = row['contact_content']
+                    emails = row['emails']
                     error = row['error']
 
                     page_summary = self.get_summary(page_content)
@@ -188,18 +185,14 @@ class ContentSummarizer:
 
                     results.append({
                         "url": url,
+                        "emails": emails,
                         "extracted_content": page_summary,
                         "extracted_about": about_summary,
                         "extracted_contact": contact_summary
                     })
 
-            # Read the original CSV to ensure all columns are preserved
             df = pd.read_csv(self.csv_file)
             df = df.merge(pd.DataFrame(results), on='url', how='left')
-            
-            # Replace empty cells with 'N/A'
-            df.fillna('N/A', inplace=True)
-            
             df.to_csv(self.output_csv_file, index=False, quoting=csv.QUOTE_NONNUMERIC)
 
             print(f"Responses saved to {self.output_csv_file}")
@@ -213,13 +206,14 @@ class ContentSummarizer:
             chat_session = model.start_chat(history=[])
 
             prompt = f"""
-            Please extract and summarize the following content. 
+            Please extract and summarize the following content.
 
-            Extract the address, contact number, and name, and return the information in the following JSON format:
+            Extract the address, contact number, email, and name, and return the information in the following JSON format:
 
             {{
                 "address": "<address>",
                 "contact_number": "<contact_number>",
+                "email": "<email>",
                 "name": "<name>",
                 "about": "<about>"
             }}
@@ -242,18 +236,18 @@ class ContentSummarizer:
                     return "Safety issue, response not generated"
                 except ResourceExhausted as e:
                     retry_count += 1
-                    print(f"Resource exhausted, retrying... ({retry_count}/5)")
-                    time.sleep(5)
+                    wait_time = 2 ** retry_count
+                    print(f"Quota exceeded. Retrying in {wait_time} seconds...")
+                    time.sleep(wait_time)
                 except Exception as e:
-                    print(f"Error generating summary: {e}")
-                    return "Error generating summary"
+                    print(f"Unexpected error: {e}")
+                    return "Unexpected error, response not generated"
+            return "Failed after multiple retries"
 
-        return "Error generating summary"
-
-# Usage
 if __name__ == "__main__":
-    scraper = WebScraper(csv_file="data/1000lines.csv", keywords=["about", "contact"])
-    output_csv = scraper.scrape()
+    # Example usage
+    scraper = WebScraper(csv_file='data/100lines.csv', keywords=['contact', 'about'])
+    scraper.scrape()
 
-    summarizer = ContentSummarizer(csv_file=output_csv)
+    summarizer = ContentSummarizer(csv_file=scraper.output_filename)
     summarizer.summarize_and_save_response()
