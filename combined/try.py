@@ -68,8 +68,8 @@ class WebScraper:
         try:
             response = self.fetch_with_retry(url, headers=headers)
             if not response:
-                return 'N/A', 'N/A', "Failed to fetch the page"
-                
+                return 'N/A', 'N/A', "Failed to fetch the page", url
+
             soup = BeautifulSoup(response.content, 'html.parser')
             page_content = soup.get_text(separator='\n', strip=True)
 
@@ -94,9 +94,9 @@ class WebScraper:
                     except requests.exceptions.RequestException as e:
                         print(f"Error fetching image from {img_url}: {e}")
 
-            return page_content if page_content.strip() else 'N/A', logo_base64, None
+            return page_content if page_content.strip() else 'N/A', logo_base64, None, url
         except requests.exceptions.RequestException as e:
-            return 'N/A', 'N/A', str(e)
+            return 'N/A', 'N/A', str(e), url
 
     def fetch_with_retry(self, url, headers=None, retries=3):
         for attempt in range(retries):
@@ -114,9 +114,19 @@ class WebScraper:
         with open(self.log_filename, 'w') as logfile:
             for url in urls:
                 if url:
-                    main_content, logo_base64, main_error = self.extract_page_content(url)
-                    about_content, _, about_error = self.extract_page_content(url, 'about')
-                    contact_content, _, contact_error = self.extract_page_content(url, 'contact')
+                    main_content, logo_base64, main_error, main_url = self.extract_page_content(url)
+                    about_url = None
+                    contact_url = None
+                    
+                    links = self.find_links(url)
+                    for link in links:
+                        if 'about' in link.lower():
+                            about_url = link
+                        if 'contact' in link.lower():
+                            contact_url = link
+
+                    about_content, _, about_error, _ = self.extract_page_content(about_url) if about_url else ('N/A', 'N/A', 'N/A', 'N/A')
+                    contact_content, _, contact_error, _ = self.extract_page_content(contact_url) if contact_url else ('N/A', 'N/A', 'N/A', 'N/A')
 
                     log_entry = (
                         f"Content for {url}:\n"
@@ -133,13 +143,20 @@ class WebScraper:
                     self.extracted_data.append({
                         'url': url,
                         'page_content': main_content,
+                        'about_url': about_url,
                         'about_content': about_content,
+                        'contact_url': contact_url,
                         'contact_content': contact_content,
                         'logo': logo_base64,
                         'error': error_code,
                     })
 
+        # Create DataFrame from extracted data
         extracted_df = pd.DataFrame(self.extracted_data)
+        
+        # Replace empty cells with 'N/A'
+        extracted_df.fillna('N/A', inplace=True)
+        
         extracted_df.to_csv(self.output_filename, index=False, quoting=csv.QUOTE_NONNUMERIC)
 
         print(f"Log file created: {self.log_filename}")
@@ -176,8 +193,13 @@ class ContentSummarizer:
                         "extracted_contact": contact_summary
                     })
 
+            # Read the original CSV to ensure all columns are preserved
             df = pd.read_csv(self.csv_file)
             df = df.merge(pd.DataFrame(results), on='url', how='left')
+            
+            # Replace empty cells with 'N/A'
+            df.fillna('N/A', inplace=True)
+            
             df.to_csv(self.output_csv_file, index=False, quoting=csv.QUOTE_NONNUMERIC)
 
             print(f"Responses saved to {self.output_csv_file}")
@@ -220,18 +242,18 @@ class ContentSummarizer:
                     return "Safety issue, response not generated"
                 except ResourceExhausted as e:
                     retry_count += 1
-                    wait_time = 2 ** retry_count
-                    print(f"Quota exceeded. Retrying in {wait_time} seconds...")
-                    time.sleep(wait_time)
+                    print(f"Resource exhausted, retrying... ({retry_count}/5)")
+                    time.sleep(5)
                 except Exception as e:
-                    print(f"Unexpected error: {e}")
-                    return "Unexpected error, response not generated"
-            return "Failed after multiple retries"
+                    print(f"Error generating summary: {e}")
+                    return "Error generating summary"
 
+        return "Error generating summary"
+
+# Usage
 if __name__ == "__main__":
-    # Example usage
-    scraper = WebScraper(csv_file='data/5lines.csv', keywords=['contact', 'about'])
-    scraper.scrape()
+    scraper = WebScraper(csv_file="data/1000lines.csv", keywords=["about", "contact"])
+    output_csv = scraper.scrape()
 
-    summarizer = ContentSummarizer(csv_file=scraper.output_filename)
+    summarizer = ContentSummarizer(csv_file=output_csv)
     summarizer.summarize_and_save_response()
