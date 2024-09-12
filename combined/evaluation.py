@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import datetime
 
+# Read the CSV file
 df = pd.read_csv('/Users/aphiwutjanphet/Documents/internship/Business Local/github/scrapingbusinesslocal/combined/output/cleant json/cleaned_content_20240911_101327.csv')
 
 # Define columns to check
@@ -26,13 +27,20 @@ def check_information(row):
         
         # Check if the extracted value exists and is not NaN
         if pd.notna(extracted_value):
+            # Normalize the extracted value by removing spaces and commas
+            extracted_value_cleaned = str(extracted_value).replace(" ", "").replace(",", "").replace("(", "").replace(")", "")
+            print(extracted_value_cleaned)
+            
             # Assume not found initially
             found = False
-            match = False
             
-            # Check if the extracted value is present in any of the 'page_content', 'about_content', 'contact_content' columns
+            # Check if the cleaned extracted value is present in any of the 'page_content', 'about_content', 'contact_content' columns
             for col in columns_to_check:
-                if extracted_value in str(row[col]):  # Check if extracted_value is a substring in the column
+                # Normalize the content of the checked column by removing spaces and commas
+                col_value_cleaned = str(row[col]).replace(" ", "").replace(",", "").replace("(", "").replace(")", "")
+                print(col_value_cleaned)
+                
+                if extracted_value_cleaned in col_value_cleaned:  # Check if cleaned extracted_value is a substring in the cleaned column
                     found = True
                     break  # Stop checking other columns once found
             
@@ -48,7 +56,7 @@ def check_information(row):
 df = df.apply(check_information, axis=1)
 
 # Save the updated DataFrame to a new CSV file
-df.to_csv(datetime.now().strftime('/Users/aphiwutjanphet/Documents/internship/Business Local/github/scrapingbusinesslocal/combined/output/evaluation results/result_%Y%m%d_%H%M%S.csv'), index=False) # index=False to avoid saving the row indices
+df.to_csv(datetime.now().strftime('output/evaluation results/result_%Y%m%d_%H%M%S.csv'), index=False) # index=False to avoid saving the row indices
 
 # Now you can view the updated DataFrame with overridden columns
 print(df[['page_content', 'about_content', 'contact_content', 'name_found', 'address_found', 'number_found', 'email_found']])
